@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name=description content="Favorite Gardens List jQuery Mobile">
+    <meta name="author" content="Enter your Name">
+    <title>Favorite Gardens</title>
+    <!-- ADD the three CDN snippets from jquerymobile.com Downloads -->
+    
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        img.fullscreen{width:100%;}
+        img.thumbnail{width:15%;}
+    </style>
+</head>
+<body>
+    
+<!-- home page -->
+<div data-role="page" id="home">   
+<header data-role="header">
+    <h1>Favorite Gardents</h1>
+</header>
+<article data-role="content">
+    <ul>
+        <li>
+            <a href="#landscape">
+            <h1>Landscape</h1>
+            <img class="thumbnail" src="https://www.huduser.gov/portal/casestudies/images/rbc_casestudies/Seattle_WA7.jpg" alt="Landscape" />
+            <p>This feels like you could stay here forever</p>
+            </a>
+        </li>
+        <li>
+            <a href="#garden">
+            <h1>Garden view</h1>
+            <img class="thumbnail" src="http://www.seattle.gov/parks/goodfood/images/garden.jpg" alt="Horizon" />
+            <p>Amazing views for miles into a blue horizon</p>
+            </a>
+        </li>
+                <li>
+            <a href="#japanese">
+            <h1>Japanese Vibe</h1>
+            <img class="thumbnail" src="http://www.seattle.gov/parks/parkspaces/JapaneseGarden/JapaneseGardenSpring.jpg" alt="Japanese" />
+            <p>The sense of peace and tranquility flows in each corner of this garden</p>
+            </a>
+        </li>
+    </ul>
+</article>
+
+<footer data-role="footer" data-position="fixed">
+    <nav>
+        <ul>
+		<li><a href="#home" data-icon="home">Home</a></li>
+		<li><a href="#photos" data-icon="grid">Photos</a></li>
+		<li><a href="#info" data-icon="info">Info</a></li>
+        </ul>
+    </nav>
+</footer>
+</div> <!-- home page -->
+        
+<!-- photos page -->
+<div data-role="page" id="photos">
+<header data-role="header">
+    <h1>Favorite Gardens</h1>
+</header>
+
+<article data-role="content">
+    <!-- Review http://demos.jquerymobile.com/1.4.5/grids/#Three-columngrids -->
+    <ul>
+        <li>
+            <a href="#landscape">
+            <img class="fullscreen" src="https://www.huduser.gov/portal/casestudies/images/rbc_casestudies/Seattle_WA7.jpg" alt="Landscape" />
+            </a>
+        </li>
+        <li>
+            <a href="#garden">
+            <img class="fullscreen" src="http://www.seattle.gov/parks/goodfood/images/garden.jpg" alt="Horizon" />
+            </a>
+        </li>
+        <li>
+            <a href="#japanese">
+            <img class="fullscreen" src="http://www.seattle.gov/parks/parkspaces/JapaneseGarden/JapaneseGardenSpring.jpg" alt="Japanese" />
+            </a>
+        </li>
+    </ul>
+</article>
+
+<footer data-role="footer" data-position="fixed">
+    <nav data-role="navbar">
+        <ul>
+		<li><a href="#home" data-icon="home">Home</a></li>
+		<li><a href="#photos" data-icon="grid">Photos</a></li>
+		<li><a href="#info" data-icon="info">Info</a></li>
+        </ul>
+    </nav>
+</footer>
+
+</div> <!-- photo page -->
+
+<!-- info page -->
+<div data-role="page" id="info">
+<header data-role="header">
+    <h1>Favorite Gardens</h1>
+</header>
+
+<article data-role="content">
+<h2>Photo Info</h2>
+    <p>All images copyright &copy; by owner 2016</p>
+</article>
+
+<footer data-role="footer" data-position="fixed">
+    <nav data-role="navbar">
+        <ul>
+		<li><a href="#home" data-icon="home">Home</a></li>
+		<li><a href="#photos" data-icon="grid">Photos</a></li>
+		<li><a href="#info" data-icon="info">Info</a></li>
+        </ul>
+    </nav>
+</footer>
+
+</div>
+        
+<!-- image pages TODO: create these-->
+
+        
+</body>
+</html>
